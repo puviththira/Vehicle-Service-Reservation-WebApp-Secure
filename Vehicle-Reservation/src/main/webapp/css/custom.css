@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.heading-section{
+	color: #eebf07;
+	margin-left: 50px;
+	font-size: 34px;
+}
+
+.ftco-section p{
+	color: #fff;
+	margin-left: -245px;
+	font-weight: 400;
+}
+
+.ftco-section h3{
+	color: #fff;
+	margin-left: -210px;
+}
+
+.ftco-section .social {
+	margin-left: -235px;
+}
+
+.ftco-section .social  button{
+	background-color: #eebf07;
+	margin-left: 43px;
+	width: 70%;
+	border-bottom: 0.25rem;
+	border: 0;
+}
+
+.ftco-section .social  button:hover{
+	background-color: #fff;
+}
+
+/* home page */
+.profile-container {
+	margin-left: 250px;
+    justify-content: center;
+    align-items: left;
+    height: 80vh; 
+    margin-top: 40px;
+}
+
+.profile-card {
+	padding: 20px;
+    max-width: 500px; 
+    text-align: center; 
+}
+ 
+ .user-profile {
+     text-align: left;
+     margin-bottom: 20px; 
+     margin-left: 56px;
+}
+
+.user-profile p {
+	margin-bottom: 15px;
+}
+        
+.custom-sidebar{
+	background-color:black;
+}
+  
+.profile-container .social a {
+    width: 60%;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+    background: orange;
+    margin-left: 80px;
+}
+
+.profile-container .social a:hover{
+	background-color: #333;
+}
+          
+@media (max-width: 768px) {
+    .profile-card {
+         width: 80%; 
+     }
+}
