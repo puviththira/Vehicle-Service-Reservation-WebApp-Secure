@@ -1,35 +1,28 @@
-# Vehicle Service Reservation Web Application
+# Secure Vehicle Service Reservation Web App
 
-## Overview
+A traditional web application for vehicle service reservation with a focus on security, authentication, and access control. This web application is designed to mitigate the OWASP Top 10 vulnerabilities, primarily addressing Broken Access Control, SQL Injection, and Cross-Site Scripting (XSS). User authentication and access control have been implemented using OIDC protocols with a cloud-based Identity Provider (IDP), Asgardeo.
 
-The Vehicle Service Reservation Web Application is designed to provide users with a secure platform for making reservations for vehicle servicing. The application addresses common vulnerabilities identified by the OWASP Top 10 and implements user authentication and access control using OIDC or SAML protocols.
+## VehicleCareReserve
 
-## Features
+### Roadmap to Deploy
 
-- **User Authentication**: Secure user login and registration using OAuth 2.0/OpenID Connect.
-- **Reservation Management**: Users can make, view, and manage their service reservations.
-- **User Profiles**: Display and manage user profile information.
-- **Vulnerability Mitigation**: Implementations to protect against OWASP Top 10 vulnerabilities.
+1. **Download the project as a ZIP**:
+   - [Download ZIP](https://github.com/puviththira/Vehicle-Service-Reservation-WebApp-Secure/archive/refs/heads/main.zip)
 
-## Technologies Used
+2. **Extract it to your workspace**.
 
-- **Frontend**: JSP, HTML, CSS, JavaScript
-- **Backend**: Java, Spring Boot
-- **Database**: MongoDB
-- **Authentication**: OIDC/SAML protocols with a cloud-based Identity Provider
-- **Cloud Service Provider**: [Specify if applicable]
+3. **Open the project using an IDE** that supports dynamic web application development, such as Eclipse.
 
-## Installation
+4. **Update the credentials**:
+   - Go to `src/main/webapp/WEB-INF/authorization.properties` and update it with your credentials. (You must have an Asgardeo account with an application and at least one user.)
 
-### Prerequisites
+5. **Check for required JARs**:
+   - Ensure that the required JARs are available in the `lib` folder (`mysql-connector-j-8.1.0` and `org.json` JARs).
+   - If not, download them and configure them in the project.
 
-- Java 11 or higher
-- MongoDB
-- Apache Tomcat (or your preferred server)
-- IDE (e.g., Eclipse, IntelliJ)
+6. **Run the application**:
+   - Run `index.jsp` as the entry point on the Tomcat server.
 
-### Steps
+### Reference
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/puviththira/Vehicle-Service-Reservation-WebApp-Secure.git
+You can find the blog article about VehicleCareReservation [here](insert-your-blog-link-here).
