@@ -1,8 +1,7 @@
-# Secure Vehicle Service Reservation Web App
+# Vehicle Service Reservation Web App - Secure
 
 A traditional web application for vehicle service reservation with a focus on security, authentication, and access control. This web application is designed to mitigate the OWASP Top 10 vulnerabilities, primarily addressing Broken Access Control, SQL Injection, and Cross-Site Scripting (XSS). User authentication and access control have been implemented using OIDC protocols with a cloud-based Identity Provider (IDP), Asgardeo.
 
-## VehicleCareReserve
 
 ### Roadmap to Deploy
 
