@@ -24,4 +24,4 @@ A traditional web application for vehicle service reservation with a focus on se
 
 ### Reference
 
-You can read the blog article titled 'Building a Secure Vehicle Service Reservation Platform: Leveraging OIDC and Mitigating OWASP Vulnerabilities' [here]([insert-your-blog-link-here](https://puviththira.medium.com/building-a-secure-vehicle-service-reservation-platform-leveraging-oidc-and-mitigating-owasp-d8c1d0abe4ff?source=user_profile_page---------0-------------8b3a98daf1f---------------)).
+You can read the blog article titled 'Building a Secure Vehicle Service Reservation Platform: Leveraging OIDC and Mitigating OWASP Vulnerabilities' [here]("insert-your-blog-link-here](https://puviththira.medium.com/building-a-secure-vehicle-service-reservation-platform-leveraging-oidc-and-mitigating-owasp-d8c1d0abe4ff?source=user_profile_page---------0-------------8b3a98daf1f---------------").
